@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  mysql-a3:
+    image: mysql:5.7
+    container_name: mysql-a3
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass
+      MYSQL_DATABASE: prog8850_db
+      MYSQL_USER: student
+      MYSQL_PASSWORD: studentpass
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql
