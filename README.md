@@ -179,7 +179,7 @@ Test output will be shown in terminal.
 
 All files, Docker Compose, `.env.example`, test script and screenshots are committed and pushed to:
 
-`https://github.com/TwinkleM97/DB_Automation_A3` 
+`[https://github.com/TwinkleM97/DB_Automation_A3](https://github.com/TwinkleM97/A3_DB_Automation)` 
 
 ---
 
